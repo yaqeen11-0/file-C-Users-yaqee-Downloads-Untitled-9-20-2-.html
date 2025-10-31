@@ -1,0 +1,188 @@
+*{margin: 0;
+padding: 0;
+  font-family: "Lalezar", sans-serif
+}
+.header{
+	    min-height: 100vh;
+	    width: 100%;
+	    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Gym Equipment.jpg");
+	
+	    background-position: center;
+	    background-size: cover;
+	    position: relative;   }
+
+nav {
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;   }
+
+nav img{ width: 40px; }
+
+nav-links{flex: 1;
+          text-align:right}
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;}
+
+.nav-links ul li a{color: #fff;
+	               text-decoration:none;
+	               font-size: 16px;}
+
+.nav-links ul li::after{content:'';
+	                    width:0%;
+	                    height:2px;
+	                    background:#325692;
+	                    display: block;
+	                    margin:auto ; 
+	                    transform: 0.5s; }
+
+.nav-links ul li:hover::after{width: 100% }
+
+.text-box{width: 90%;
+	      color: #fff;
+	      position: absolute;
+	      tob: 50%;
+	      left: 50%;
+	      transform: translate(-50% , -50%);
+	      text-align: center; }
+
+.text-box h1{ font-size: 40px;}
+.text-box p{margin: 10px 0 40px;
+	        font-size: 14px;
+	        color: #fff;}
+.hero-btn{display: inline-block;
+	      text-decoration: none;
+	      color:#fff;
+          border: 1px solid #fff;
+          padding: 12px 34px;
+	      font-size: 13px;
+          background: transparent;
+	      position: relative;
+	      cursor: pointer;}
+
+/*------ Course ------*/
+
+.course{width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;}
+
+h1{font-size: 36px;
+	font-weight: 600;}
+
+h4{color: #fff;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 22px;
+ padding: 10px;}
+
+.row{margin-top:5%;
+	display:flex;
+	justify-content:space-between;}
+
+.course-col{flex-basis: 30%;
+	       background: #325692;
+           border-radius: 5px;
+           margin-bottom: 5%;
+           padding: 5px 5px;
+           box-sizing: border-box;}
+h3{text-align: center;
+   font-weight: 600;
+   margin: 10px 0;}
+.course-col:hover{box-shadow: 0 0 20px 0 px rgba(0,0,0,0.2);}
+
+.course-col{width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;}
+
+.course-col{flex-basis: 31%;
+            border-radius: 15px;
+             margin-bottom: 10%;
+            text-align: left}
+
+.course-col img{width: 100%;
+                border-radius: 15px;}
+.course-col p{padding: 0;}
+.course-col h3{margin-top: 20px;
+               margin-bottom: 20px;
+                text-align: left;}
+
+/*------ footer ------*/
+
+.footer { padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.footer{background-color: #111;}
+
+.footerContainer{ width: 100%;
+                 padding: 70px 30px 20px ;}
+
+.socialIcons{ display: flex;
+             justify-content: center;}
+
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color:#325692;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #325692;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color:#325692;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+
